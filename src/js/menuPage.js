@@ -1,6 +1,6 @@
 function addMenuPage() {
-  const menuPage = document.createElement('div');
-  menuPage.id = 'menuPage';
+  const menuPage = document.createElement("div");
+  menuPage.id = "menuPage";
   menuPage.innerHTML = `
     <div class="menu">
       <h1>Menu</h1>
@@ -21,7 +21,7 @@ function addMenuPage() {
       </div>
     </div>
   `;
-    return menuPage;
+  return menuPage;
 }
 
 export default addMenuPage;
