@@ -1,12 +1,12 @@
 // Import our custom CSS
 import "../scss/styles.scss";
-
-// Import all of Bootstrap's JS
-import * as bootstrap from "bootstrap";
+import Icon from "../silverware-fork-knife.svg";
 
 import addHomePage from "./homePage";
 import addMenuPage from "./menuPage";
 import addAboutPage from "./aboutPage";
+
+document.head.innerHTML += `<link rel="icon" href="${Icon}" type="image/svg+xml">`;
 
 const content = document.getElementById("content");
 
@@ -28,3 +28,5 @@ about.addEventListener("click", () => {
   content.innerHTML = "";
   content.appendChild(addAboutPage());
 });
+
+//document.body.innerHTML = "";

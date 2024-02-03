@@ -7,11 +7,19 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <!-- buttons Home Menu About -->
-        <button class="btn btn-primary" id="home">Home</button>
-        <button class="btn btn-primary" id="menu">Menu</button>
-        <button class="btn btn-primary" id="about">About</button>
+        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+          <li class="nav-item">
+            <button class="btn btn-primary nav-link" id="home">Home</button>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-primary nav-link" id="menu">Menu</button>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-primary nav-link" id="about">About</button>
+          </li>
+        </ul>
       </nav>
     </header>
     <div id="content"></div>

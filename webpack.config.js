@@ -3,7 +3,6 @@
 const path = require("path");
 const autoprefixer = require("autoprefixer");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-
 module.exports = {
   mode: "development",
   entry: "./src/js/main.js",
@@ -14,9 +13,16 @@ module.exports = {
   devServer: {
     static: path.resolve(__dirname, "dist"),
     port: 8080,
-    hot: true,
+    hot: false,
+    liveReload: true,
   },
-  plugins: [new HtmlWebpackPlugin({ template: "./src/index.html" })],
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./src/index.html",
+      filename: "index.html",
+      cache: false,
+    }),
+  ],
   module: {
     rules: [
       {
@@ -44,6 +50,10 @@ module.exports = {
             loader: "sass-loader",
           },
         ],
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
       },
     ],
   },
