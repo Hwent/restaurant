@@ -3,7 +3,9 @@ function addMenuPage() {
   menuPage.id = "menuPage";
   menuPage.innerHTML = `
   <h1>Menu</h1>
+  <br>
   <div class="b-example-divider"></div>
+  <br>
   <div class="row">
     <div class="col">
       <h2>Appetizers</h2>
@@ -33,6 +35,7 @@ function addMenuPage() {
       </ul>
     </div>
   </div>
+  <br>
     <div class="b-example-divider"></div>
   `;
 

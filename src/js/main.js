@@ -1,5 +1,5 @@
-// Import our custom CSS
 import "../scss/styles.scss";
+
 import Icon from "../silverware-fork-knife.svg";
 import Search from "../search.svg";
 
@@ -19,8 +19,7 @@ const menu = document.getElementById("menu");
 const about = document.getElementById("about");
 
 //default page
-content.appendChild(addMenuPage());
-content.appendChild(addCarousel());
+content.appendChild(addHomePage());
 
 home.addEventListener("click", () => {
   content.innerHTML = "";

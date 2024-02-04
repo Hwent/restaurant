@@ -1,3 +1,7 @@
+import facebookIcon from "../facebook.svg";
+import instagramIcon from "../instagram.svg";
+import twitterIcon from "../twitter-x.svg";
+
 function addAboutPage() {
   const aboutPage = document.createElement("div");
   aboutPage.innerHTML = `
@@ -16,9 +20,9 @@ function addAboutPage() {
     <p>Saturday - Sunday: 9am - 11pm</p>
     <br>
     <p>Follow us on social media:</p>
-    <p>Facebook</p>
-    <p>Instagram</p>
-    <p>Twitter</p>
+    <a href="https://www.facebook.com"><img src="${facebookIcon}" width="24" alt="Facebook"></a>
+    <a href="https://www.instagram.com"><img src="${instagramIcon}" width="24" alt="Instagram"></a>
+    <a href="https://www.twitter.com"><img src="${twitterIcon}" width="24" alt="Twitter"></a>
   `;
   return aboutPage;
 }

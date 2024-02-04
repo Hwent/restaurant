@@ -12,27 +12,24 @@ function addCarousel() {
             <div class="carousel-item active">
                 <img class="bd-placeholder-img" width="100%" height="100%" src="https://images.unsplash.com/photo-1546549032-9571cd6b27df?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Slide 1">
                 <div class="container">
-                    <div class="carousel-caption text-start text-black">
+                    <div class="carousel-caption opacity-75">
                         <h1>Carbonara</h1>
-                        <p class="opacity-75">Indulge in our classic Carbonara, where al dente spaghetti is delicately coated in a rich and creamy sauce crafted from eggs, Parmesan cheese, and pancetta, resulting in a perfectly balanced symphony of flavors. Our Carbonara is a timeless Italian dish that promises a satisfying fusion of silky texture and savory goodness, making every bite a culinary delight.</p>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="bd-placeholder-img" width="100%" height="100%" src="https://images.unsplash.com/photo-1625943553852-781c6dd46faa?q=80&w=1045&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Slide 2">
                 <div class="container">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption opacity-75">
                         <h1>Scampi shrimp</h1>
-                        <p>Savor the succulence of our Scampi Shrimp, featuring plump and juicy shrimp delicately sautéed in a garlic-infused buttery sauce. Each bite bursts with the natural sweetness of the shrimp, complemented by the aromatic blend of garlic and butter, creating a delightful seafood experience that will leave your taste buds craving more.</p>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="bd-placeholder-img" width="100%" height="100%" src="path/to/image3.jpg" alt="Slide 3">
+                <img class="bd-placeholder-img" width="100%" height="100%" src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Slide 3">
                 <div class="container">
-                    <div class="carousel-caption text-end">
-                        <h1>One more for good measure.</h1>
-                        <p>Some representative placeholder content for the third slide of this carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                    <div class="carousel-caption opacity-75">
+                        <h1>Tiramisu</h1>
                     </div>
                 </div>
             </div>
