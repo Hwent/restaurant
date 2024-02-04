@@ -1,14 +1,11 @@
 import "../scss/styles.scss";
 
-import Icon from "../silverware-fork-knife.svg";
 import Search from "../search.svg";
-
+import Favicon from "../silverware-fork-knife.svg";
 import addHomePage from "./homePage";
 import addMenuPage from "./menuPage";
 import addAboutPage from "./aboutPage";
 import addCarousel from "./carousel";
-
-document.head.innerHTML += `<link rel="icon" href="${Icon}" type="image/svg+xml">`;
 
 const searchicon = document.querySelector(".searchicon");
 searchicon.src = Search;
