@@ -1,18 +1,26 @@
 // Import our custom CSS
 import "../scss/styles.scss";
 import Icon from "../silverware-fork-knife.svg";
+import Search from "../search.svg";
 
 import addHomePage from "./homePage";
 import addMenuPage from "./menuPage";
 import addAboutPage from "./aboutPage";
+import addCarousel from "./carousel";
 
 document.head.innerHTML += `<link rel="icon" href="${Icon}" type="image/svg+xml">`;
 
+const searchicon = document.querySelector(".searchicon");
+searchicon.src = Search;
 const content = document.getElementById("content");
 
 const home = document.getElementById("home");
 const menu = document.getElementById("menu");
 const about = document.getElementById("about");
+
+//default page
+content.appendChild(addMenuPage());
+content.appendChild(addCarousel());
 
 home.addEventListener("click", () => {
   content.innerHTML = "";
@@ -22,6 +30,7 @@ home.addEventListener("click", () => {
 menu.addEventListener("click", () => {
   content.innerHTML = "";
   content.appendChild(addMenuPage());
+  content.appendChild(addCarousel());
 });
 
 about.addEventListener("click", () => {
